@@ -99,7 +99,16 @@ def process_image(image_path):
             "area": int(np.sum(mask))
         })
 
-    return img_np, segmentation_mask, depth_map, detected_objects
+        annotated_img = img_np.copy()
+        for obj in detected_objects:
+            x_min, y_min, x_max, y_max = obj["bbox"]
+            cv2.rectangle(annotated_img, (x_min, y_min), (x_max, y_max), color=(255, 0, 0), thickness=2)
+            label_text = f"{obj['label']} ({obj['average_depth']:.2f})"
+            cv2.putText(annotated_img, label_text, (x_min, max(y_min - 5, 0)),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), thickness=2)
+
+    return img_np, segmentation_mask, depth_map, detected_objects, annotated_img
+
 
 def visualize_results(image_np, segmentation_mask, depth_map, objects):
     # Create a copy of the original image for annotation
