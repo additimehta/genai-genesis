@@ -11,21 +11,26 @@ def save_numpy_as_image(np_array, output_path, cmap='inferno'):
 
 def save_annotated_image(image_np, output_path):
     """Saves the annotated numpy image as a PNG."""
-    annotated_img = Image.fromarray(cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR))
+    # Ensure the image is in BGR format for saving (OpenCV uses BGR)
+    if image_np.shape[-1] == 3:  # Check if it's an RGB image
+        image_np = cv2.cvtColor(image_np, cv2.COLOR_RGB2BGR)
+    annotated_img = Image.fromarray(image_np)
     annotated_img.save(output_path)
 
 def main():
     image_path = "stairs.jpeg"
-    accessibility_type = "visual"
+    accessibility_type = "wheelchair"
 
     # Step 1: Process the image
-    img_np, seg_mask, depth_map, detected_objects, annotated_img  = process_image(image_path)
+    img_np, seg_mask, depth_map, detected_objects, annotated_img = process_image(image_path)
 
     # Step 2: Save intermediary images
     depth_map_path = "stairs_depth.png"
     annotated_path = "stairs_annotated.png"
+    # Save depth map using save_numpy_as_image (appropriate for scalar arrays)
     save_numpy_as_image(depth_map, depth_map_path)
-    save_numpy_as_image(annotated_img, annotated_path)
+    # Save annotated image using save_annotated_image (appropriate for RGB images)
+    save_annotated_image(annotated_img, annotated_path)
 
     # Step 3: Analyze with Gemini
     print("\n🔍 Calling Gemini for accessibility analysis...\n")

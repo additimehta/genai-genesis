@@ -84,28 +84,38 @@ def process_image(image_path):
         if np.sum(mask) == 0:
             continue
 
-        avg_depth = np.mean(depth_map[mask])
-        # Find bounding box coordinates from the mask.
+        # Use median instead of mean for depth to reduce outlier impact
+        median_depth = np.median(depth_map[mask])
         coords = np.column_stack(np.where(mask))
         y_min, x_min = coords.min(axis=0)
         y_max, x_max = coords.max(axis=0)
 
         bbox = [int(x_min), int(y_min), int(x_max), int(y_max)]
+        pixel_width = x_max - x_min
+        pixel_height = y_max - y_min
+
+        f = 1000  # Assumed focal length in pixels; calibrate in real scenarios
+        estimated_width = (pixel_width * median_depth) / f
+        estimated_height = (pixel_height * median_depth) / f
         
         detected_objects.append({
             "label": label_name,
             "bbox": bbox,
-            "average_depth": float(avg_depth),
-            "area": int(np.sum(mask))
+            "median_depth": float(median_depth),  # Renamed from average_depth
+            "area": int(np.sum(mask)),
+            "pixel_width": pixel_width,
+            "pixel_height": pixel_height,
+            "estimated_width": estimated_width,
+            "estimated_height": estimated_height
         })
 
         annotated_img = img_np.copy()
         for obj in detected_objects:
             x_min, y_min, x_max, y_max = obj["bbox"]
             cv2.rectangle(annotated_img, (x_min, y_min), (x_max, y_max), color=(255, 0, 0), thickness=2)
-            label_text = f"{obj['label']} ({obj['average_depth']:.2f})"
+            label_text = f"{obj['label']} ({obj['median_depth']:.2f}m, W:{obj['estimated_width']:.2f}m, H:{obj['estimated_height']:.2f}m)"
             cv2.putText(annotated_img, label_text, (x_min, max(y_min - 5, 0)),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), thickness=2)
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), thickness=2)
 
     return img_np, segmentation_mask, depth_map, detected_objects, annotated_img
 
@@ -116,7 +126,7 @@ def visualize_results(image_np, segmentation_mask, depth_map, objects):
     for obj in objects:
         x_min, y_min, x_max, y_max = obj["bbox"]
         cv2.rectangle(annotated_img, (x_min, y_min), (x_max, y_max), color=(255, 0, 0), thickness=2)
-        label_text = f"{obj['label']} ({obj['average_depth']:.2f})"
+        label_text = f"{obj['label']} ({obj['median_depth']:.2f}m, W:{obj['estimated_width']:.2f}m, H:{obj['estimated_height']:.2f}m)"
         cv2.putText(annotated_img, label_text, (x_min, max(y_min - 5, 0)),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), thickness=2)
     
@@ -147,6 +157,6 @@ def visualize_results(image_np, segmentation_mask, depth_map, objects):
 
 if __name__ == "__main__":
     # For standalone testing
-    img_np, seg_mask, depth_map, objects = process_image("stairs.jpeg")
+    img_np, seg_mask, depth_map, objects, annotated_img = process_image("stairs.jpeg")
     print("Detected objects:", objects)
     visualize_results(img_np, seg_mask, depth_map, objects)
