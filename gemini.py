@@ -123,6 +123,16 @@ def analyze_accessibility(prepro_img_path, depth_map_path, annotated_image_path,
 
     return response.text
 
+
+def main_gemini_analysis(prepro_img_path, depth_map_path, annotated_image_path, detected_objects, accessibility_type="visual"):
+    return analyze_accessibility(
+        prepro_img_path,
+        depth_map_path,
+        annotated_image_path,
+        detected_objects,
+        accessibility_type
+    )
+
 if __name__ == "__main__":
     # For standalone testing
     sample_objects = [
