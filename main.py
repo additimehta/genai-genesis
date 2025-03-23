@@ -19,7 +19,7 @@ def save_annotated_image(image_np, output_path):
 
 def main():
     image_path = "stairs.jpeg"
-    accessibility_type = "wheelchair"
+    accessibility_type = "visual"
 
     # Step 1: Process the image
     img_np, seg_mask, depth_map, detected_objects, annotated_img = process_image(image_path)
