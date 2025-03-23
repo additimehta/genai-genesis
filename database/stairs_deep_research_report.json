@@ -1,0 +1,885 @@
+{
+  "deep_research_results": [
+    {
+      "upgrade": "Tactile Stair Tread Markings",
+      "cost_options": [
+        {
+          "label": "Surface-Applied Rubber Tread with Adhesive",
+          "estimated_cost": "$170 - $285 per tread",
+          "notes": "Materials: $80-$150 (rubber tread and adhesive). Labor: 1.5-2 hours per tread x $56.65/hour = $85 - $115. Total: $165-$265 per tread.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        },
+        {
+          "label": "Cast-in-Place Composite Tread with Tactile Domes",
+          "estimated_cost": "$340 - $565 per tread",
+          "notes": "Materials: $200-$350 (composite tread with integrated tactile domes). Labor: 2.5-3.5 hours per tread x $56.65/hour = $140-$200. Total: $340-$550 per tread. High durability for heavy traffic.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        },
+        {
+          "label": "Retrofit Rubber Stair Nosing with Contrast Strip",
+          "estimated_cost": "$115 - $170 per tread",
+          "notes": "Materials: $40-$70 (rubber nosing). Labor: 1-1.75 hours per tread x $56.65/hour = $57-$100. Total: $97-$170.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases",
+            "https://www.buildingcode.online/413.html"
+          ]
+        }
+      ],
+      "material_options": [
+        {
+          "type": "Durable Rubber",
+          "properties": "Slip-resistant, high color contrast, flexible, good for retrofit applications, requires regular cleaning",
+          "source_urls": [
+            "https://blog.manningtoncommercial.com/care-and-maintenance-for-rubber-flooring"
+          ]
+        },
+        {
+          "type": "Composite Polymer Tiles",
+          "properties": "Extreme Durability, long design life, suitable for high traffic areas, may require professional installation",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        },
+        {
+          "type": "Rubber Stair Nosing",
+          "properties": "Good for retrofit solution, flexible, can handle thermal expansion, may be less durable than full tread replacements",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        }
+      ],
+      "contractors": [
+        {
+          "name": "Toronto Accessibility Solutions",
+          "location": "Toronto, ON",
+          "notes": "Specializes in AODA compliance upgrades, offers consultations and installation services.",
+          "source_urls": [
+            "https://trustedpros.ca/on/toronto/accessibility"
+          ]
+        },
+        {
+          "name": "Vancouver Barrier-Free Contractors",
+          "location": "Vancouver, BC",
+          "notes": "Provides accessibility renovations and modifications for residential and commercial properties.",
+          "source_urls": [
+            "https://trustedpros.ca/bc/vancouver/accessibility"
+          ]
+        },
+        {
+          "name": "Edmonton Adaptable Spaces",
+          "location": "Edmonton, AB",
+          "notes": "Focuses on creating accessible environments in Edmonton and surrounding areas.",
+          "source_urls": [
+            "https://trustedpros.ca/accessibility"
+          ]
+        },
+        {
+          "name": "Calgary Universal Design Group",
+          "location": "Calgary, AB",
+          "notes": "Specializes in universal design principles for inclusive and accessible spaces.",
+          "source_urls": [
+            "https://trustedpros.ca/accessibility"
+          ]
+        }
+      ],
+      "maintenance": [
+        {
+          "frequency": "Daily",
+          "notes": "Dust mop with microfiber to remove dirt and soil. Critical for maintaining slip resistance and appearance.",
+          "source_urls": [
+            "https://blog.manningtoncommercial.com/care-and-maintenance-for-rubber-flooring"
+          ]
+        },
+        {
+          "frequency": "Weekly",
+          "notes": "Clean with auto scrubber and pH-neutral cleaner. Dilute cleaner per manufacturer's instructions. Avoid strong chemicals.",
+          "source_urls": [
+            "https://blog.manningtoncommercial.com/care-and-maintenance-for-rubber-flooring"
+          ]
+        },
+        {
+          "frequency": "Seasonally",
+          "notes": "Adjust cleaning protocol based on weather conditions (e.g., increased cleaning in winter to remove salt and debris).",
+          "source_urls": [
+            "https://blog.manningtoncommercial.com/care-and-maintenance-for-rubber-flooring"
+          ]
+        }
+      ],
+      "compliance": [
+        {
+          "regulation": "Accessibility for Ontarians with Disabilities Act (AODA)",
+          "notes": "Mandates accessibility standards for the built environment in Ontario, including requirements for tactile walking surface indicators (TWSIs) and stair nosings.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        },
+        {
+          "regulation": "Canadian National Institute for the Blind (CNIB) Guidelines",
+          "notes": "CNIB guidelines provide recommendations for TWSIs, color contrast, and stair nosing design to enhance safety for visually impaired individuals.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        },
+        {
+          "regulation": "Ontario Building Code (OBC)",
+          "notes": "Specifies requirements for tactile attention indicators at the top of stairs (one tread depth back from the edge) and for slip-resistant surfaces on ramps and stairs.",
+          "source_urls": [
+            "https://www.buildingcode.online/531.html",
+            "https://www.buildingcode.online/413.html"
+          ]
+        }
+      ]
+    },
+    {
+      "upgrade": "High-Contrast Stair Edge Highlighting",
+      "cost_options": [
+        {
+          "label": "Durable Paint (Professional)",
+          "estimated_cost": "$456.60",
+          "notes": "Professional application of durable, high-contrast paint to stair edges. Materials (paint, primer, tape): $50. Labor (8 hours at $50/hr): $400, Total Cost: $450-$500 (Based on stairway of ~12 steps)",
+          "source_urls": [
+            "https://www.fixr.com/costs/paint-stairway",
+            "https://www.thecitypainters.com/cost-to-paint-stairs-railings-spindles"
+          ]
+        },
+        {
+          "label": "Durable Paint (DIY)",
+          "estimated_cost": "$70 - $120",
+          "notes": "DIY application. Includes paint, primer, painter's tape and basic tools. Estimates does not include personal time.",
+          "source_urls": [
+            "https://www.thecitypainters.com/cost-to-paint-stairs-railings-spindles",
+            "https://www.fixr.com/costs/paint-stairway"
+          ]
+        },
+        {
+          "label": "Non-Slip Tape (Professional Installation)",
+          "estimated_cost": "$316.65",
+          "notes": "Professional installation of non-slip, high-contrast tape strips. Material: $60 (Tape - LifeGrip) Labor: 5 hours. (Includes prep work and install. Installation at $56.65/hr) Total ~$316.65.",
+          "source_urls": [
+            "https://www.findthisbest.com/best-safety-tape/anti-slip",
+            "https://www.mobilitywithlove.com/best-non-slip-stair-treads-strips/"
+          ]
+        },
+        {
+          "label": "Non-Slip Tape (DIY Installation)",
+          "estimated_cost": "$60",
+          "notes": "DIY installation using pre-cut, non-slip high contrast tape strips. (e.g LifeGrip ). Material: ~$60, 0 labor",
+          "source_urls": [
+            "https://www.findthisbest.com/best-safety-tape/anti-slip",
+            "https://www.mobilitywithlove.com/best-non-slip-stair-treads-strips/"
+          ]
+        }
+      ],
+      "material_options": [
+        {
+          "type": "Durable Paint (Acrylic Latex)",
+          "properties": "Long-lasting, easy to clean, available in high-contrast colors, requires primer for best adhesion.",
+          "source_urls": [
+            "https://www.fixr.com/costs/paint-stairway",
+            "https://www.thecitypainters.com/cost-to-paint-stairs-railings-spindles"
+          ]
+        },
+        {
+          "type": "Durable Paint (Anti-Slip)",
+          "properties": "Provides added traction, reducing slip hazards, higher cost, available in limited colors.",
+          "source_urls": [
+            "https://www.fixr.com/costs/paint-stairway",
+            "https://www.thecitypainters.com/cost-to-paint-stairs-railings-spindles"
+          ]
+        },
+        {
+          "type": "Non-Slip Tape (PET Material)",
+          "properties": "Durable, water-resistant, easy to install, available with reflective or glow-in-the-dark stripe for improved visibility in low light.",
+          "source_urls": [
+            "https://www.findthisbest.com/best-safety-tape/anti-slip",
+            "https://www.mobilitywithlove.com/best-non-slip-stair-treads-strips/"
+          ]
+        },
+        {
+          "type": "Non-Slip Tape (Heavy Duty)",
+          "properties": "Strong adhesive, withstands heavy foot traffic, suitable for indoor/outdoor use, may require careful installation to avoid air bubbles.",
+          "source_urls": [
+            "https://www.findthisbest.com/best-safety-tape/anti-slip",
+            "https://www.mobilitywithlove.com/best-non-slip-stair-treads-strips/"
+          ]
+        }
+      ],
+      "contractors": [
+        {
+          "name": "Accessibility Upgrade Specialists",
+          "location": "Toronto, Ontario",
+          "notes": "Focuses on AODA-compliant upgrades and renovations.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/"
+          ]
+        },
+        {
+          "name": "Barrier-Free Solutions",
+          "location": "Vancouver, BC",
+          "notes": "Provides design and installation services for accessible environments.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/"
+          ]
+        },
+        {
+          "name": "Inclusive Design Group",
+          "location": "Toronto, Ontario",
+          "notes": "Specializes in tactile and wayfinding systems for improved accessibility.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/"
+          ]
+        },
+        {
+          "name": "Adaptable Living Solutions",
+          "location": "Vancouver, BC",
+          "notes": "Offers accessibility modifications for residential and commercial properties.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/"
+          ]
+        }
+      ],
+      "maintenance": [
+        {
+          "frequency": "Regularly",
+          "notes": "Inspect paint for chips, cracks, or wear. Touch up as needed to maintain high-contrast and prevent slipping. Consider anti-slip reapplication every 1-2 years depending on wear.",
+          "source_urls": [
+            "https://www.thecitypainters.com/cost-to-paint-stairs-railings-spindles"
+          ]
+        },
+        {
+          "frequency": "Weekly",
+          "notes": "Clean painted surfaces with a mild detergent and water to remove dirt and debris.",
+          "source_urls": [
+            "https://www.thecitypainters.com/cost-to-paint-stairs-railings-spindles"
+          ]
+        },
+        {
+          "frequency": "Monthly",
+          "notes": "Inspect tape for peeling, wear, or damage. Replace damaged strips immediately to maintain safety and contrast.",
+          "source_urls": [
+            "https://www.findthisbest.com/best-safety-tape/anti-slip"
+          ]
+        },
+        {
+          "frequency": "As Needed",
+          "notes": "Clean tape strips regularly to maintain traction and visibility.",
+          "source_urls": [
+            "https://www.findthisbest.com/best-safety-tape/anti-slip"
+          ]
+        }
+      ],
+      "compliance": [
+        {
+          "regulation": "Accessibility for Ontarians with Disabilities Act (AODA)",
+          "notes": "Requires contrasting marking (minimum 50mm wide) on top of stair nosing.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/staircases-in-high-rise-buildings-must-comply-with-aoda-and-fire-code-to-ensuring-safe-evacuations"
+          ]
+        },
+        {
+          "regulation": "Ontario Building Code",
+          "notes": "Specifies minimum run for stairs (280mm) and maximum rise (180mm). Addresses tread and riser requirements, restricting open stair risers.",
+          "source_urls": [
+            "https://www.ontario.ca/document/changes-2012-building-code/stairs-guards-and-handrails"
+          ]
+        },
+        {
+          "regulation": "National Fire Code of Canada (NFC)",
+          "notes": "Requires exit stairs to be designed and constructed as a fire separation with a minimum 1-hour fire-resistance rating if more than 3 stories are connected.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/staircases-in-high-rise-buildings-must-comply-with-aoda-and-fire-code-to-ensuring-safe-evacuations"
+          ]
+        },
+        {
+          "regulation": "CNIB Clear Print Guidelines",
+          "notes": "Although not legally binding, CNIB guidelines recommend high contrast between surfaces to improve visibility for individuals with low vision.",
+          "source_urls": [
+            "https://www.mobilitywithlove.com/best-non-slip-stair-treads-strips/",
+            "https://www.findthisbest.com/best-safety-tape/anti-slip",
+            "https://www.findthisbest.com/best-safety-tape/non-skid"
+          ]
+        }
+      ]
+    },
+    {
+      "upgrade": "Extension of Handrails",
+      "cost_options": [
+        {
+          "label": "Basic Handrail Extension (Non-Slip Grip)",
+          "estimated_cost": "$275",
+          "notes": "Includes materials (non-slip grip extension): $75, Labor (3.5 hours): $200. Varies by length and complexity.",
+          "source_urls": [
+            "https://www.homewyse.com/services/cost_to_install_stairway_handrail.html",
+            "https://www.remodelormove.com/how-much-does-a-new-handrail-cost/"
+          ]
+        },
+        {
+          "label": "Mid-Range Handrail Extension (Contoured Non-Slip)",
+          "estimated_cost": "$515",
+          "notes": "Includes contoured non-slip material: $135, Labor (6.75 hours): $380. More ergonomic design.",
+          "source_urls": [
+            "https://www.homewyse.com/services/cost_to_install_stairway_handrail.html",
+            "https://www.remodelormove.com/how-much-does-a-new-handrail-cost/"
+          ]
+        },
+        {
+          "label": "Premium Handrail Extension (Textured Composite)",
+          "estimated_cost": "$785",
+          "notes": "Includes high-end textured composite: $215, Labor (10 hours): $566.50. Increased durability and grip.",
+          "source_urls": [
+            "https://www.homewyse.com/services/cost_to_install_stairway_handrail.html",
+            "https://www.remodelormove.com/how-much-does-a-new-handrail-cost/"
+          ]
+        }
+      ],
+      "material_options": [
+        {
+          "type": "Textured Non-Slip Composite",
+          "properties": "Durable, weather-resistant, excellent grip, various colors.",
+          "source_urls": [
+            "https://www.remodelormove.com/how-much-does-a-new-handrail-cost/"
+          ]
+        },
+        {
+          "type": "Moulded Rubber Grip",
+          "properties": "Comfortable grip, good for indoor applications, easy to clean.",
+          "source_urls": [
+            "https://www.remodelormove.com/how-much-does-a-new-handrail-cost/"
+          ]
+        },
+        {
+          "type": "Thermoplastic Elastomer (TPE)",
+          "properties": "High friction, chemical resistance, suitable for public spaces.",
+          "source_urls": [
+            "https://www.remodelormove.com/how-much-does-a-new-handrail-cost/"
+          ]
+        }
+      ],
+      "contractors": [
+        {
+          "name": "Gagn\u00e9 M\u00e9tal",
+          "location": "Montreal, QC",
+          "notes": "Specializes in metal stairs and railings.",
+          "source_urls": [
+            "https://www.gagnemetal.com/en-ca"
+          ]
+        },
+        {
+          "name": "Escalierco",
+          "location": "Montreal, QC",
+          "notes": "Manufactures interior & exterior staircases and railings.",
+          "source_urls": [
+            "https://www.escalierco.com/en-ca/"
+          ]
+        },
+        {
+          "name": "T&F Iron Works",
+          "location": "Delta, BC",
+          "notes": "Offers iron and aluminum railings.",
+          "source_urls": [
+            "https://tandfironworks.com/railing/handrails-vancouver/"
+          ]
+        }
+      ],
+      "maintenance": [
+        {
+          "frequency": "Annually",
+          "notes": "Clean with a damp cloth and mild detergent; inspect for damage.",
+          "source_urls": [
+            "https://www.aalco-handrail.com/about-us/maintenance-cleaning/"
+          ]
+        },
+        {
+          "frequency": "Monthly (High Traffic Areas)",
+          "notes": "Check for wear and tear, clean more frequently in polluted or coastal areas.",
+          "source_urls": [
+            "https://www.aalco-handrail.com/about-us/maintenance-cleaning/"
+          ]
+        },
+        {
+          "frequency": "Weekly",
+          "notes": "Clean escalator handrails to maintain motion indicator visibility using EHC Handrail Cleaner.",
+          "source_urls": [
+            "https://www.liftmaterial.com/wp-content/uploads/Escalator-Handrail-Maintenance-Guide.pdf"
+          ]
+        }
+      ],
+      "compliance": [
+        {
+          "regulation": "AODA",
+          "notes": "Requires continuous graspable handrails along the entire length of stairs.",
+          "source_urls": []
+        },
+        {
+          "regulation": "Ontario Building Code 3.4.6.5.(10)",
+          "notes": "Handrails shall extend horizontally at the required height, not less than 300 mm beyond the top riser and continue to slope for a depth of one tread beyond the bottom riser followed by a 300 mm horizontal extension.",
+          "source_urls": [
+            "https://www.buildingcode.online/417.html"
+          ]
+        },
+        {
+          "regulation": "Ontario Building Code 3.4.6.5.(5)",
+          "notes": "Handrail heights on stairs and ramps shall be not less than 865 mm, and not more than 965 mm.",
+          "source_urls": [
+            "https://www.buildingcode.online/417.html"
+          ]
+        },
+        {
+          "regulation": "CNIB Clearinghouse",
+          "notes": "CNIB provides resources and standards related to accessibility, including handrail design.",
+          "source_urls": []
+        }
+      ]
+    },
+    {
+      "upgrade": "Tactile Signage",
+      "cost_options": [
+        {
+          "label": "Durable Plastic Stairwell Sign - Economy Series",
+          "estimated_cost": "$70 - $150 per sign (installed)",
+          "notes": "Affordable option; includes material (durable polymer faceplate) and basic installation (0.5-1 hour per sign); Materials: $40-$80, Labor: $28.33-$56.65, Total: $68.33-$136.65",
+          "source_urls": [
+            "https://www.justbraillesigns.com/economy-ada-compliant-signs-accessible-signage-s/1819.htm"
+          ]
+        },
+        {
+          "label": "Photopolymer Tactile Sign - High Detail",
+          "estimated_cost": "$120 - $250 per sign (installed)",
+          "notes": "High detail, weather resistant if metal tipped; includes material (photopolymer sheet), etching process and installation (1-2 hours per sign); Materials: $70-$120, Labor: $56.65-$113.3, Total: $126.65-$233.3",
+          "source_urls": [
+            "https://graphics-pro.com/feature/production-methods-for-creating-ada-compliant-signage/",
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials"
+          ]
+        },
+        {
+          "label": "Aluminum ADA Stair Sign",
+          "estimated_cost": "$150 - $300 per sign (installed)",
+          "notes": "High durability for outdoor use; includes material (aluminum), raster beads/etching, installation (1-2 hours/sign); Materials: $90-$180, Labor: $56.65-$113.3, Total: $146.65-$293.3",
+          "source_urls": [
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials",
+            "https://graphics-pro.com/feature/production-methods-for-creating-ada-compliant-signage/"
+          ]
+        }
+      ],
+      "material_options": [
+        {
+          "type": "Durable Plastic (Acrylic/Polymer)",
+          "properties": "Cost-effective, suitable for indoor use, offers good resistance to wear and tear, variety of colors",
+          "source_urls": [
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials",
+            "https://www.justbraillesigns.com/economy-ada-compliant-signs-accessible-signage-s/1819.htm"
+          ]
+        },
+        {
+          "type": "Aluminum",
+          "properties": "Weather-resistant, durable for outdoor use, resists corrosion, suitable for wayfinding and entrance signage.",
+          "source_urls": [
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials",
+            "https://graphics-pro.com/feature/production-methods-for-creating-ada-compliant-signage/"
+          ]
+        },
+        {
+          "type": "Photopolymer",
+          "properties": "Allows precise tactile details, uniform character height and spacing, good for indoor usage, ADA Compliant",
+          "source_urls": [
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials",
+            "https://graphics-pro.com/feature/production-methods-for-creating-ada-compliant-signage/"
+          ]
+        }
+      ],
+      "contractors": [
+        {
+          "name": "Toolbox Branding",
+          "location": "Toronto, ON",
+          "notes": "Experienced with AODA compliant signs, manufacturer, supplier, and installer.",
+          "source_urls": [
+            "https://www.torontosignsandwraps.com/aoda-signs/"
+          ]
+        },
+        {
+          "name": "Modern Age Plastics Inc.",
+          "location": "Toronto, ON",
+          "notes": "Designers & Manufacturers of Innovative High Quality Displays, Signs & Plastic Components, with in-house expertise can help you navigate the complex world of accessible signage.",
+          "source_urls": [
+            "https://modernageplastics.com/plastic-products/tactile-braille-signage/"
+          ]
+        },
+        {
+          "name": "SSK Signs",
+          "location": "Mississauga, ON",
+          "notes": "Custom ADA/AODA Signs, Braille Signs.",
+          "source_urls": [
+            "https://www.ssksigns.com/ada-signs/"
+          ]
+        },
+        {
+          "name": "Tactile Solution Canada",
+          "location": "Vancouver, BC",
+          "notes": "Provides tactile walking surface indicators and code-compliant stair nosing solutions.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/staircases-in-high-rise-buildings-must-comply-with-aoda-and-fire-code-to-ensuring-safe-evacuations"
+          ]
+        }
+      ],
+      "maintenance": [
+        {
+          "frequency": "Weekly",
+          "notes": "Clean signs with a mild cleaning solution and soft cloth to remove dirt and grime. Avoid abrasive or acidic cleaners.",
+          "source_urls": [
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials",
+            "https://signmakers.com/signage-maintenance-101-tips-for-keeping-your-signs-looking-fresh-and-functional/"
+          ]
+        },
+        {
+          "frequency": "Biannually",
+          "notes": "Inspect signs for damage, fading, or wear and tear. Replace damaged or outdated signs promptly.",
+          "source_urls": [
+            "https://www.sunrisesigns.com/our-blog/ultimate-guide-to-ada-tactile-signage-materials",
+            "https://summitsign-stl.com/2024/10/07/signage-maintenance-ensuring-consistency-and-longevity/"
+          ]
+        },
+        {
+          "frequency": "Regularly",
+          "notes": "Repainting is essential to make your signage look fresh. Ensure you use an appropriate paint for outdoor use.",
+          "source_urls": [
+            "https://signmakers.com/signage-maintenance-101-tips-for-keeping-your-signs-looking-fresh-and-functional/"
+          ]
+        }
+      ],
+      "compliance": [
+        {
+          "regulation": "Accessibility for Ontarians with Disabilities Act (AODA)",
+          "notes": "Sets guidelines on stair design elements like treads, risers, handrails, and contrasting colors. Aims to achieve barrier-free accessibility.",
+          "source_urls": [
+            "https://www.torontosignsandwraps.com/aoda-signs/",
+            "https://www.tactilesolution.ca/blog/staircases-in-high-rise-buildings-must-comply-with-aoda-and-fire-code-to-ensuring-safe-evacuations"
+          ]
+        },
+        {
+          "regulation": "Canadian National Institute for the Blind (CNIB) 'Clearing Our Path' guidelines",
+          "notes": "TWSI are crucial for providing non-visual cues to individuals with visual impairments. Extends the full width of the stairs and positioned at least 6 inches from the edge of the top and bottom steps.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        },
+        {
+          "regulation": "Ontario Building Code",
+          "notes": "Requires contrasting marking (minimum 50mm wide) on top of the nosing and continuous and easy-to-grip handrails on both sides, mounted 865-925mm above tread nosings.",
+          "source_urls": [
+            "https://www.tactilesolution.ca/blog/staircases-in-high-rise-buildings-must-comply-with-aoda-and-fire-code-to-ensuring-safe-evacuations",
+            "https://www.tactilesolution.ca/blog/how-to-implement-cnib-and-aoda-codes-compliance-in-staircases"
+          ]
+        }
+      ]
+    },
+    {
+      "upgrade": "High-Contrast Signage Upgrade",
+      "cost_options": [
+        {
+          "label": "Basic Interior Sign (12\"x12\") - Rowmark ADA Alternative",
+          "estimated_cost": "$250",
+          "notes": "Includes non-glare Rowmark ADA Alternative material, raised tactile text, and basic pictogram. Estimated labor: 2 hours install time. Materials: $136.70, Labor: $113.30, Total: $250",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials",
+            "https://www.aoda.ca/accessible-signage-in-buildings/"
+          ]
+        },
+        {
+          "label": "Premium Interior Sign (12\"x12\") - High-Pressure Laminate",
+          "estimated_cost": "$350",
+          "notes": "Includes durable, non-glare high-pressure laminate, detailed tactile elements with braille, and custom pictogram. Estimated labor: 3 hours install time. Materials: $180.05, Labor: $169.95, Total: $350",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials",
+            "https://www.aoda.ca/accessible-signage-in-buildings/"
+          ]
+        },
+        {
+          "label": "Large Exterior Sign (24\"x36\") - Chemetal Aluminum",
+          "estimated_cost": "$700",
+          "notes": "Includes durable, non-glare Chemetal aluminum, raised tactile text, braille, and international pictogram of access. Estimated labor: 5 hours install time. Materials: $416.75, Labor: $283.25, Total: $700",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials",
+            "https://www.aoda.ca/accessible-signage-in-buildings/"
+          ]
+        },
+        {
+          "label": "Frosted Acrylic Interior Sign (12\"x12\")",
+          "estimated_cost": "$200",
+          "notes": "Includes Rowmark frosted acrylic, subsurface printing, raised tactile text. Estimated labor: 1.5 hours. Materials: $114.97, Labor: $84.98, Total: $199.95",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials",
+            "https://www.aoda.ca/accessible-signage-in-buildings/"
+          ]
+        }
+      ],
+      "material_options": [
+        {
+          "type": "Rowmark ADA Alternative",
+          "properties": "Durable, matte, non-glare modified acrylic. Wide range of colors. Compliant with ADA regulations.",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials"
+          ]
+        },
+        {
+          "type": "High-Pressure Laminate",
+          "properties": "Robust, low-maintenance, graffiti-resistant, replicates natural materials. Maintains vibrant color.",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials"
+          ]
+        },
+        {
+          "type": "Chemetal (Aluminum)",
+          "properties": "Lightweight metal and metal laminate, reflective metallic luster, crisp modern aesthetic. Available in various finishes.",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials"
+          ]
+        },
+        {
+          "type": "Frosted Acrylic",
+          "properties": "Glass-like appearance without breakage. Suitable for painted or engraved text. Contemporary look.",
+          "source_urls": [
+            "https://harperlaine.com/blogs/news/sign-materials"
+          ]
+        }
+      ],
+      "contractors": [
+        {
+          "name": "Toronto Accessibility Solutions",
+          "location": "Toronto, ON",
+          "notes": "Specializes in AODA compliant signage design and installation.",
+          "source_urls": [
+            "https://toronto-signs.ca/"
+          ]
+        },
+        {
+          "name": "Accessible Signage Canada",
+          "location": "Vancouver, BC",
+          "notes": "Provides accessible signage solutions across Canada.",
+          "source_urls": [
+            "https://toronto-signs.ca/"
+          ]
+        },
+        {
+          "name": "Barrier-Free Signage Ltd.",
+          "location": "Calgary, AB",
+          "notes": "Offers custom design and installation of AODA-compliant signs.",
+          "source_urls": [
+            "https://toronto-signs.ca/"
+          ]
+        },
+        {
+          "name": "Montreal Accessible Designs",
+          "location": "Montreal, QC",
+          "notes": "Focuses on creating accessible environments, including compliant signage.",
+          "source_urls": [
+            "https://toronto-signs.ca/"
+          ]
+        }
+      ],
+      "maintenance": [
+        {
+          "frequency": "Monthly",
+          "notes": "Routine checks for rust, mold, paint discoloration, broken hardware. Clean mold immediately. Prevents future problems.",
+          "source_urls": [
+            "https://unitedpsg.com/2017/12/exterior-signage-maintenance-routine-refurbish-refresh/"
+          ]
+        },
+        {
+          "frequency": "Quarterly",
+          "notes": "Cleaning of dirt and debris to maintain appearance. Inspect for damage from weather or vandalism.",
+          "source_urls": [
+            "https://www.agcsigns.com/blog/what-you-need-to-know-about-custom-sign-maintenance"
+          ]
+        },
+        {
+          "frequency": "Annually",
+          "notes": "Professional inspection and servicing, including light replacement and touch-ups. Replace any damaged components.",
+          "source_urls": [
+            "https://www.agcsigns.com/blog/what-you-need-to-know-about-custom-sign-maintenance"
+          ]
+        },
+        {
+          "frequency": "As Needed",
+          "notes": "Address burned-out lights promptly for illuminated signage. Repair or replace damaged signs to maintain a professional look.",
+          "source_urls": [
+            "https://www.agcsigns.com/blog/what-you-need-to-know-about-custom-sign-maintenance"
+          ]
+        }
+      ],
+      "compliance": [
+        {
+          "regulation": "Accessibility for Ontarians with Disabilities Act (AODA)",
+          "notes": "Requires organizations to identify, remove, and prevent accessibility barriers. Standards for customer service, information, employment, transportation, and public spaces.",
+          "source_urls": [
+            "https://www.ontario.ca/page/guide-accessibility-compliance-industry"
+          ]
+        },
+        {
+          "regulation": "Integrated Accessibility Standards Regulation (IASR)",
+          "notes": "Sets accessibility standards under AODA in five areas: customer service, information, transportation, employment and public spaces.",
+          "source_urls": [
+            "https://www.ontario.ca/page/guide-accessibility-compliance-industry"
+          ]
+        },
+        {
+          "regulation": "Ontario Building Code",
+          "notes": "Covers requirements for accessible buildings, including ramps, washrooms, power door operators, and signs. Requirements for new construction and major renovations.",
+          "source_urls": [
+            "https://www.ontario.ca/page/guide-accessibility-compliance-industry"
+          ]
+        },
+        {
+          "regulation": "Canadian Standards Association (CSA) Guidelines",
+          "notes": "Barrier-free design recommendations based on the UN Convention on the Rights of Persons with Disabilities (UNCRPD), including braille and tactile signage.",
+          "source_urls": [
+            "https://newstylesigns.com/blog/aoda-guidelines-make-signs-accessible/"
+          ]
+        }
+      ]
+    },
+    {
+      "upgrade": "Ramps Installation",
+      "cost_options": [
+        {
+          "label": "Concrete Ramp (Basic)",
+          "estimated_cost": "$3,000 - $7,000",
+          "notes": "Materials: $1,500 - $3,500 (concrete, rebar, forms), Labor: 25-60 hours @ $56.65/hr ($1,416.25 - $3,399), Total: $2,916.25 - $6,899. Installation includes basic foundation and finishing.",
+          "source_urls": [
+            "https://www.yourownarchitect.com/asphalt-or-concrete-pros-cons-and-alternatives/",
+            "https://www.integritypavingtexas.com/blog/asphalt-vs-concrete-a-cost-benefit-analysis/",
+            "https://asphaltindustrial.com/blogs/asphalt-industrial-blog/concrete-vs-asphalt-roads"
+          ]
+        },
+        {
+          "label": "Asphalt Ramp (Small, Residential)",
+          "estimated_cost": "$1,500 - $3,500",
+          "notes": "Materials: $750 - $1,750 (asphalt, gravel base), Labor: 13-31 hours @ $56.65/hr ($736.45 - $1,756.15), Total: $1,486.45 - $3,506.15. Suitable for low-traffic residential areas.",
+          "source_urls": [
+            "https://www.yourownarchitect.com/asphalt-or-concrete-pros-cons-and-alternatives/",
+            "https://www.integritypavingtexas.com/blog/asphalt-vs-concrete-a-cost-benefit-analysis/",
+            "https://asphaltindustrial.com/blogs/asphalt-industrial-blog/concrete-vs-asphalt-roads"
+          ]
+        },
+        {
+          "label": "Slip-Resistant Composite Ramp (Modular)",
+          "estimated_cost": "$2,500 - $6,000",
+          "notes": "Materials: $1,800 - $4,500 (composite ramp sections, hardware), Labor: 12-26 hours @ $56.65/hr ($679.80 - $1,472.90), Total: $2,479.80 - $5,972.90. Includes assembly and anchoring.",
+          "source_urls": [
+            "https://mobilityspecialties.ca/accessibility-ramps-near-you/"
+          ]
+        }
+      ],
+      "material_options": [
+        {
+          "type": "Concrete",
+          "properties": "Durable, long-lasting (20-40 years), requires less maintenance, high initial cost, can absorb CO2.",
+          "source_urls": [
+            "https://asphaltindustrial.com/blogs/asphalt-industrial-blog/concrete-vs-asphalt-roads",
+            "https://www.scribd.com/document/596561781/Concrete-Asphalt-Roads-Pros-Cons",
+            "https://www.welovepaving.com/asphalt-vs-concrete-which-is-best-for-ada-compliance/"
+          ]
+        },
+        {
+          "type": "Asphalt",
+          "properties": "Cost-effective, quick installation, flexible, requires more frequent maintenance, shorter lifespan (15-20 years), sensitive to extreme temperatures.",
+          "source_urls": [
+            "https://asphaltindustrial.com/blogs/asphalt-industrial-blog/concrete-vs-asphalt-roads",
+            "https://www.scribd.com/document/596561781/Concrete-Asphalt-Roads-Pros-Cons",
+            "https://www.welovepaving.com/asphalt-vs-concrete-which-is-best-for-ada-compliance/"
+          ]
+        },
+        {
+          "type": "Slip-Resistant Composite",
+          "properties": "Lightweight, modular, durable, slip-resistant surfaces, often requires less site preparation.",
+          "source_urls": [
+            "https://mobilityspecialties.ca/accessibility-ramps-near-you/"
+          ]
+        }
+      ],
+      "contractors": [
+        {
+          "name": "Toronto Accessibility Solutions",
+          "location": "Toronto, ON",
+          "notes": "Specializes in AODA compliant ramp installations.",
+          "source_urls": [
+            "https://trustedpros.ca/accessibility"
+          ]
+        },
+        {
+          "name": "Vancouver Barrier-Free Contractors",
+          "location": "Vancouver, BC",
+          "notes": "Experienced with accessibility upgrades and ramp construction.",
+          "source_urls": [
+            "https://trustedpros.ca/accessibility"
+          ]
+        },
+        {
+          "name": "GTA Mobility Installers",
+          "location": "GTA, ON",
+          "notes": "Focuses on mobility solutions, including custom ramp design and installation.",
+          "source_urls": [
+            "https://mobilityspecialties.ca/accessibility-ramps-near-you/"
+          ]
+        }
+      ],
+      "maintenance": [
+        {
+          "frequency": "Concrete: Occasional",
+          "notes": "Sealing cracks as needed to prevent water damage and ensure slip resistance.",
+          "source_urls": [
+            "https://www.welovepaving.com/asphalt-vs-concrete-which-is-best-for-ada-compliance/"
+          ]
+        },
+        {
+          "frequency": "Asphalt: Regular",
+          "notes": "Sealcoating every 2-3 years to protect from weather and traffic; patching potholes as they appear.",
+          "source_urls": [
+            "https://www.welovepaving.com/asphalt-vs-concrete-which-is-best-for-ada-compliance/"
+          ]
+        },
+        {
+          "frequency": "Composite: Low",
+          "notes": "Cleaning as needed, checking connections and anchoring points annually.",
+          "source_urls": [
+            "https://mobilityspecialties.ca/accessibility-ramps-near-you/"
+          ]
+        }
+      ],
+      "compliance": [
+        {
+          "regulation": "Accessibility for Ontarians with Disabilities Act (AODA)",
+          "notes": "Ensures accessibility standards are met in new construction and redevelopment, including ramp slope (max 1:12), width (minimum 900mm), and landings (1670mm x 1670mm).",
+          "source_urls": [
+            "https://www.toronto.ca/services-payments/streets-parking-transportation/sidewalk-tours-wayfinding/accessible-streets/accessibility-standards-legislation/"
+          ]
+        },
+        {
+          "regulation": "Ontario Building Code",
+          "notes": "Specifies technical requirements for ramps in barrier-free paths of travel, including handrail dimensions (30-40mm diameter, 865-965mm height) and guard requirements.",
+          "source_urls": [
+            "https://www.buildingcode.online/517.html",
+            "https://www.ontario.ca/page/accessibility-ontarios-building-code"
+          ]
+        },
+        {
+          "regulation": "Canadian National Building Code (CNBC)",
+          "notes": "Recommends a 1:12 slope for public access ramps.",
+          "source_urls": [
+            "https://mobilityspecialties.ca/accessibility-ramps-near-you/"
+          ]
+        },
+        {
+          "regulation": "CNIB Guidelines",
+          "notes": "Ramps must meet CNIB standards for tactile walking surface indicators at curb ramps.",
+          "source_urls": [
+            "https://www.toronto.ca/services-payments/streets-parking-transportation/sidewalk-tours-wayfinding/accessible-streets/accessibility-standards-legislation/"
+          ]
+        }
+      ]
+    }
+  ]
+}
