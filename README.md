@@ -40,6 +40,7 @@ AccessPath is an AI-powered accessibility upgrade visualization system that tran
 6.⁠ ⁠*Final Visualization*
    - Creates realistic upgrade previews
    - Generates multiple design variations
+
 Installation & Setup
 Backend Setup
 Clone the Repository:
@@ -50,7 +51,6 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install Python Dependencies:
 
-Copy
 pip install -r requirements.txt
 Configure Environment Variables:
 Create a .env file in the root directory and add your API keys (e.g., COHERE_API_KEY, GENAI credentials).
@@ -65,10 +65,11 @@ npm run dev
 Running the Application
 Backend (API):
 Launch the Flask application:
-
-bash
-Copy
+ppython segment_flask.py
+python gemini_and_cohere_flask.py
 python deep_research_flask.py
+python final_generation_flask.py
+
 The API will start and listen on the configured port (default is 5003).
 
 Frontend (Web Interface):
