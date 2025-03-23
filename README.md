@@ -40,3 +40,36 @@ AccessPath is an AI-powered accessibility upgrade visualization system that tran
 6.⁠ ⁠*Final Visualization*
    - Creates realistic upgrade previews
    - Generates multiple design variations
+Installation & Setup
+Backend Setup
+Clone the Repository:
+git clone https://github.com/your-username/additimehta-genai-genesis.git
+cd additimehta-genai-genesis
+Create and Activate a Virtual Environment:
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install Python Dependencies:
+
+Copy
+pip install -r requirements.txt
+Configure Environment Variables:
+Create a .env file in the root directory and add your API keys (e.g., COHERE_API_KEY, GENAI credentials).
+
+# Frontend Setup
+Navigate to the Frontend Directory:
+cd frontend
+Install Node Dependencies:
+npm install
+Start the Frontend Development Server:
+npm run dev
+Running the Application
+Backend (API):
+Launch the Flask application:
+
+bash
+Copy
+python deep_research_flask.py
+The API will start and listen on the configured port (default is 5003).
+
+Frontend (Web Interface):
+With the development server running, access the application at http://localhost:3000 or the port specified in your configuration.
