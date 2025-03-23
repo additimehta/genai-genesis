@@ -1,45 +1,35 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
-from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
+CORS(app)  # Allow frontend to call backend
 
-# Set up a folder to store uploaded images
-UPLOAD_FOLDER = 'uploads/'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+UPLOAD_FOLDER = "uploads"
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-# Function to check if the file extension is allowed
-def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+@app.route("/upload", methods=["POST"])
+def upload_file():
+    print("Incoming request:", request.content_type)  # Debug request type
 
+    if "image" not in request.files:
+        print("❌ No file part in request")
+        return jsonify({"error": "No file part"}), 400  
 
-@app.route('/upload', methods=['POST'])
-def upload_files():
-    print("Received upload request")
-    if 'files' not in request.files:
-        print("No files in the request")
-        return jsonify({"error": "No file part"}), 400
-    
-    files = request.files.getlist('files')
-    uploaded_files = []
-    
-    for file in files:
-        if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
-            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            file.save(file_path)
-            uploaded_files.append(file_path)
-            print(f"File uploaded: {file_path}")
-        else:
-            print("Invalid file type")
-            return jsonify({"error": "Invalid file type"}), 400
-    
-    return jsonify({"message": "Files uploaded successfully", "files": uploaded_files}), 200
+    file = request.files["image"]
+    print("Received file:", file.filename)  # Debug filename
 
+    if file.filename == "":
+        print("❌ No file selected")
+        return jsonify({"error": "No selected file"}), 400  
 
-if __name__ == '__main__':
-    if not os.path.exists(UPLOAD_FOLDER):
-        os.makedirs(UPLOAD_FOLDER)
+    file_path = os.path.join(app.config["UPLOAD_FOLDER"], file.filename)
+    file.save(file_path)
+    print("✅ File saved:", file_path)
+
+    return jsonify({"message": "File uploaded successfully", "file_path": file_path}), 200
+
+if __name__ == "__main__":
     app.run(debug=True)
