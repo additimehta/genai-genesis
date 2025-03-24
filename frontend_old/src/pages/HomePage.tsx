@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
-import { Link } from 'react-router-dom'; // Correct import
+import { Link } from 'react-router-dom'; 
 import { ChevronDown } from 'lucide-react';
 
 function HomePage() {
