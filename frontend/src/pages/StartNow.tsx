@@ -66,6 +66,8 @@ const StartNow = () => {
     });
   };
 
+
+
   const handleRemoveImage = (index: number) => {
     const updatedImages = [...images];
     const updatedPreviews = [...previews];
@@ -78,59 +80,59 @@ const StartNow = () => {
   };
 
 
-
-
-  /// HANDLER FOR THE API VERY IMPORTANT
   const handleContinue = async () => {
-    if (images.length > 0) {
-      // Always proceed to the processing page with the preview image
-      const proceedToProcessing = () => {
-        navigate(`/processing?image=${encodeURIComponent(previews[0])}`);
-      };
-
-      // Try to upload to backend but don't block the user experience
-      try {
-        const formData = new FormData();
-        formData.append("image", images[0]); // Upload the first image
-        formData.append("disabilityType", disabilityType);
-
-        // Set a timeout to ensure we continue even if the server is slow
-        const uploadTimeout = setTimeout(() => {
-          proceedToProcessing();
-        }, 2000);
-
-        const response = await fetch("http://127.0.0.1:5001/upload", {
-          method: "POST",
-          body: formData,
-        });
-
-        clearTimeout(uploadTimeout);
-
-        if (response.ok) {
-          const data = await response.json();
-          setUploadStatus(data.message);
-          toast({
-            title: "Upload successful",
-            description: data.message || "Image uploaded successfully",
-          });
-        }
-        
-        // Always proceed regardless of upload success
-        proceedToProcessing();
-      } catch (error) {
-        console.log("Upload could not complete, but continuing with preview");
-        // Continue with the preview regardless of upload status
-        proceedToProcessing();
-      }
-    } else {
+    if (images.length === 0) {
       toast({
         title: "No images selected",
         description: "Please upload at least one image to continue",
-        variant: "destructive"
+        variant: "destructive",
       });
+      return;
+    }
+  
+    try {
+      const formData = new FormData();
+      formData.append("image", images[0]);
+      formData.append("disabilityData", JSON.stringify({ type: disabilityType }));
+  
+      const response = await fetch("http://127.0.0.1:5001/upload", {
+        method: "POST",
+        body: formData,
+      });
+  
+      if (response.ok) {
+        const data = await response.json();
+        toast({
+          title: "Upload successful",
+          description: data.message || "Image uploaded successfully",
+          variant: "default",
+        });
+  
+        // Navigate to the next page after successful upload
+        navigate(`/processing?image=${encodeURIComponent(previews[0])}`);
+  
+      } else {
+        const errorData = await response.json();
+        toast({
+          title: "Upload failed",
+          description: errorData.message || "Something went wrong. Please try again.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Upload error",
+        description: "An unexpected error occurred. Please check your connection and try again.",
+        variant: "destructive",
+      });
+      console.error("Upload failed:", error);
     }
   };
+  
+  
 
+
+  
   const handleDisabilityTypeChange = (value: string) => {
     setDisabilityType(value);
   };
@@ -351,7 +353,8 @@ const StartNow = () => {
                     {uploadStatus}
                   </p>
                 )}
-                
+
+              {/* Upload Button */}
                 <Button
                   onClick={handleContinue}
                   className="bg-accessible-dark hover:bg-accessible-dark/90 text-white font-medium shadow-md transition-colors"
