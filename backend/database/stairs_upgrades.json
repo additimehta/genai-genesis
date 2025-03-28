@@ -1,0 +1,123 @@
+{
+  "upgrades": [
+    {
+      "type": "Tactile Stair Tread Markings",
+      "description": "Install tactile warning strips with high color contrast on each stair tread.",
+      "location_reference": "Existing stairway",
+      "bbox": [
+        [
+          507,
+          1113,
+          1378,
+          1887
+        ]
+      ],
+      "depth": 11.05,
+      "dimensions": "Width: 9.62m (full width of stairs), Depth of strip: 0.05m (5cm)",
+      "slope_ratio": "null",
+      "material_preferences": "Durable, non-slip rubber or composite with high color contrast (e.g., black on gray, or yellow).",
+      "accessibility_goal": "Provides tactile and visual warning of steps, reducing trip hazards for visually impaired users.",
+      "priority_level": "high",
+      "dependencies": []
+    },
+    {
+      "type": "High-Contrast Stair Edge Highlighting",
+      "description": "Apply high-contrast colored strips (paint or tape) to the vertical face of each stair tread (the riser).",
+      "location_reference": "Existing stairway",
+      "bbox": [
+        [
+          507,
+          1113,
+          1378,
+          1887
+        ]
+      ],
+      "depth": 11.05,
+      "dimensions": "Width: 9.62m, Height of strip: 0.05-0.1m.",
+      "slope_ratio": "null",
+      "material_preferences": "Durable paint or non-slip tape.",
+      "accessibility_goal": "Enhanced visual edge detection on stairs, improving safety for all, especially the visually impaired.",
+      "priority_level": "high",
+      "dependencies": []
+    },
+    {
+      "type": "Extension of Handrails",
+      "description": "Extend handrails beyond the top and bottom steps, providing support and indicating the stairway's start/end.",
+      "location_reference": "Existing stairway with railing",
+      "bbox": [
+        [
+          319,
+          913,
+          684,
+          1862
+        ]
+      ],
+      "depth": 18.98,
+      "dimensions": "Extension length: Minimum 0.3m at both ends.",
+      "slope_ratio": "null",
+      "material_preferences": "Same as existing handrails, or compatible non-slip material.",
+      "accessibility_goal": "Provide advance warning and continuous support to those with visual or mobility impairments.",
+      "priority_level": "high",
+      "dependencies": []
+    },
+    {
+      "type": "Tactile Signage",
+      "description": "Install tactile signage (Braille and raised characters) at the top and bottom of the stairs to indicate floor numbers or destinations.",
+      "location_reference": "Top and bottom landings of existing stairway",
+      "bbox": [
+        [
+          507,
+          1113,
+          1378,
+          1887
+        ],
+        [
+          319,
+          913,
+          684,
+          1862
+        ]
+      ],
+      "depth": 0.0,
+      "dimensions": "Standard tactile signage dimensions.",
+      "slope_ratio": "null",
+      "material_preferences": "Durable plastic or metal with raised characters and Braille.",
+      "accessibility_goal": "Wayfinding support for visually impaired individuals.",
+      "priority_level": "medium",
+      "dependencies": []
+    },
+    {
+      "type": "High-Contrast Signage Upgrade",
+      "description": "Improve visibility of signage by increasing font size, using high-contrast colors, and ensuring adequate lighting.",
+      "location_reference": "Doors",
+      "bbox": [
+        [
+          938,
+          250,
+          1349,
+          599
+        ]
+      ],
+      "depth": 3.13,
+      "dimensions": "Increase signage sizes by at least 25%.",
+      "slope_ratio": "null",
+      "material_preferences": "Durable, non-glare material.",
+      "accessibility_goal": "Enhances signage readability for all, especially those with low vision.",
+      "priority_level": "medium",
+      "dependencies": []
+    },
+    {
+      "type": "Ramps Installation",
+      "description": "Install ramps parallel to the stairs, providing accessible entry and exit to all levels, adhering to accessibility standards (e.g., ADA).",
+      "location_reference": "Alongside existing stairway",
+      "bbox": [],
+      "depth": 0.0,
+      "dimensions": "Width: Minimum 1.22m. Length dependent on height, aiming for a 1:12 slope.",
+      "slope_ratio": "1:12",
+      "material_preferences": "Concrete, asphalt, or slip-resistant composite.",
+      "accessibility_goal": "Improve wheelchair and mobility device navigation between levels.",
+      "priority_level": "high",
+      "dependencies": []
+    }
+  ]
+}
