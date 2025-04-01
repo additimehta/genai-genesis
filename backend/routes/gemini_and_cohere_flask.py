@@ -4,7 +4,7 @@ import json
 from gemini import main_gemini_analysis
 from cohere_post_processing import parse_gemini_output
 
-app = Flask(__name__)
+gemini_bp = Blueprint("gemini", __name__)
 
 DATABASE_DIR = os.path.join(os.getcwd(), "database")
 
@@ -82,6 +82,9 @@ def full_accessibility_pipeline():
     })
 
 
+
+# not sure if we will need the get method seems like the post handles ittt????
+
 @app.route('/get_analysis/<filename>', methods=['GET'])
 def get_analysis(filename):
     base_name = os.path.splitext(filename)[0]
@@ -92,7 +95,3 @@ def get_analysis(filename):
         structured_json = json.load(f)
     return jsonify(structured_json)
 
-
-
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5002)

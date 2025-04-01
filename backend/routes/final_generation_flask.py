@@ -5,7 +5,7 @@ from final_generation import generate_accessibility_upgraded_images
 from PIL import Image
 from dotenv import load_dotenv
 
-app = Flask(__name__)
+final_generation_bp = Blueprint("final_generation", __name__)
 
 DATABASE_FOLDER = "database"
 os.makedirs(DATABASE_FOLDER, exist_ok=True)
@@ -43,11 +43,17 @@ def generate_variation_api():
                 img.save(out_path)
                 output_paths.append(out_path)
 
-        return jsonify({"generated_images": output_paths})
+        return jsonify({
+            "message": f"Successfully generated {len(output_paths)} variations.",
+            "generated_images": output_paths
+        })
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
+
+
+
 @app.route('/get_variations', methods=['GET'])
 def get_variations():
     base_name = request.args.get("base_name")
@@ -66,9 +72,8 @@ def get_variations():
     if not variations:
         return jsonify({"error": "No variations found for the given base_name"}), 404
 
-    return jsonify({"available_variations": variations})
+    return jsonify({
+        "message": f"Found {len(variations)} variations for {base_name}.",
+        "available_variations": variations
+    })
 
-
-
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5004)

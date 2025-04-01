@@ -4,9 +4,11 @@ import tempfile
 import cv2
 import numpy as np
 import json
-from segment import process_image
+from scripts.segment import process_image
 
-app = Flask(__name__)
+
+
+segment_bp = Blueprint("segment", __name__)
 
 
 # For proper documentation explain what this api does!!!
@@ -88,9 +90,6 @@ def analyze_images():
     results = process_uploaded_images(images)
 
     return jsonify(results), 200
-
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
 
 
 ## no need for a get request api the post handles uploading it in the database make the ui handle this request

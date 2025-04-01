@@ -4,7 +4,7 @@ import os
 
 from ..deep_research_custom.deep_research import run_deep_research_from_file
 
-app = Flask(__name__)
+deep_research_bp = Blueprint("deep_research", __name__)
 
 DATABASE_FOLDER = "database"
 
@@ -54,6 +54,3 @@ def deep_research_get(base_name):
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-if __name__ == "__main__":
-    os.makedirs(DATABASE_FOLDER, exist_ok=True)
-    app.run(debug=True, host='0.0.0.0', port=5001)

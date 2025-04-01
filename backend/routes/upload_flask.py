@@ -4,8 +4,7 @@ import os
 import json 
 
 
-app = Flask(__name__)
-
+upload_bp = Blueprint("upload", __name__)
 
 CORS(app)
 
